@@ -1,4 +1,4 @@
 pandas==1.0.0
 Cython==0.29.19
 streamlit==0.60.0
-graphbrain
+-e git://github.com/graphbrain/graphbrain#egg=graphbrain
