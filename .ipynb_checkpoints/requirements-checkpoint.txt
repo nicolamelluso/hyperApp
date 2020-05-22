@@ -1,13 +1,3 @@
 pandas==1.0.0
 Cython==0.29.19
 streamlit==0.60.0
-numpy
-spacy==2.1
-neuralcoref==4.0.0
-plyvel
-python-igraph
-termcolor
-asciitree
-ipython
-progressbar2
-unidecode
