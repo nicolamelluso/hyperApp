@@ -3,7 +3,7 @@
 
 from setuptools import setup, find_packages
 
-setup(name='graphbrain',dependency_links = ["git+git://github.com/graphbrain/graphbrain"])
+setup(name='graphbrain',dependency_links = ["http://github.com/graphbrain/graphbrain#egg=graphrain"])
 
 
 
