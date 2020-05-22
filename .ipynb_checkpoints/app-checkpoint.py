@@ -21,6 +21,8 @@ import numpy as np
 
 import hypergraphs as hg
 
+import graphbrain
+
 from graphbrain.parsers import *
 from graphbrain import notebook
 
