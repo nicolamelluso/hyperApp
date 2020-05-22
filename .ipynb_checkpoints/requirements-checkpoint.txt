@@ -1,4 +1,4 @@
 pandas==1.0.0
 streamlit==0.60.0
 cython
-- e .
+./graphbrain/
