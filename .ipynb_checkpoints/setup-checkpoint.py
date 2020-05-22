@@ -3,10 +3,13 @@
 
 from setuptools import setup, find_packages
 
-setup(name='alone',
-      install_requires=[
-        'pandas', 'cython','graphbrain'   ],
-      url = 'https://github.com/nicolamelluso/graphbrain', download_url = 'https://github.com/nicolamelluso/graphbrain', dependency_links = ["https://github.com/graphbrain/graphbrain#egg=graphrain"])
-
+import os
+thelibFolder = os.path.dirname(os.path.realpath(__file__))
+requirementPath = thelibFolder + '/reqs.txt'
+install_requires = [] # Examples: ["gunicorn", "docutils>=0.3", "lxml==0.5a7"]
+if os.path.isfile(requirementPath):
+    with open(requirementPath) as f:
+        install_requires = f.read().splitlines()
+setup(name="alone", install_requires=install_requires)
 
 
