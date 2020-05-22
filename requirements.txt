@@ -1,5 +1,7 @@
 pandas==1.0.0
 streamlit==0.60.0
+shutil
 cython
 graphbrain
-https://github.com/explosion/spacy-models/releases/tag/en_core_web_lg-2.2.5/en_core_web_lg-2.2.5.tar.gz
+spacy==2.0.18
+https://github.com/explosion/spacy-models/releases/download/en_core_web_md-2.0.0/en_core_web_md-2.0.0.tar.gz#egg=en_core_web_md==2.0.0

@@ -13,6 +13,15 @@ streamlit run streamlit_spacy.py
 """
 from __future__ import unicode_literals
 
+import shutil
+
+original = r'original path where the file is currently stored\file name.file extension'
+target = r'target path where the file will be copied\file name.file extension'
+
+shutil.copyfile(original, target)
+
+st.write('Model copied')
+
 import streamlit as st
 import base64
 import os
