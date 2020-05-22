@@ -2,4 +2,4 @@ pandas==1.0.0
 streamlit==0.60.0
 cython
 graphbrain
--e git://github.com/explosion/spacy-models.git@en_core_web_lg-2.2.5#egg=en_core_web_lg
+pip install https://github.com/explosion/spacy-models/releases/download//en_core_web_lg-2.2.5.tar.gz
