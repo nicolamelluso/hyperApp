@@ -2,3 +2,4 @@ pandas==1.0.0
 streamlit==0.60.0
 cython
 graphbrain
+https://github.com/explosion/spacy-models/releases/download/en_vectors_web_lg-2.0.0/en_vectors_web_lg-2.0.0.tar.gz
