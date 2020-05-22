@@ -3,4 +3,4 @@ streamlit==0.60.0
 cython
 graphbrain
 spacy==2.1
-https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-2.2.5/en_core_web_lg-2.2.5.tar.gz#egg=en_core_web_lg-2.2.5
+https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-2.1.0/en_core_web_lg-2.1.0.tar.gz#egg=en_core_web_lg-2.1.0
